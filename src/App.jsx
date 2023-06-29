@@ -1,5 +1,15 @@
+import AdviceGenerator from "./components/Advice/Advice";
+import { GlobalStyles } from "./styles/GlobalStyles";
+
 const App = () => {
-	return <h1>Núcleo de la aplicación</h1>;
+
+	return (
+	<>
+		<GlobalStyles />
+		<AdviceGenerator />
+	</>
+	);
+
 };
 
 export default App;
